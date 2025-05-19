@@ -10,6 +10,7 @@ body {
     min-width: 100vw;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .slide-content,
@@ -31,7 +32,14 @@ body {
     border: 5px black solid;
     display: flex;
     max-width: 800px;
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+.nav-button {
+    padding: 30px;
+    font-size: 5rem;
+    border: none;
+    background-color: gray;
 }
 
 

@@ -5,7 +5,8 @@ const slideContainer = document.querySelector(".wide-slide");
 
 const imageSlider = slideShift(slideContainer);
 
+// initial right position set
 imageSlider.resetToFirst();
 
-imageSlider.nextSlide();
-imageSlider.prevSlide();
+
+
