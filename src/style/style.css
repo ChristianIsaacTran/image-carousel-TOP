@@ -1,0 +1,17 @@
+.slide-content,
+.slide {
+    max-width: 500px;
+    max-height: 260px;
+}
+
+.wide-slide {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    border: 5px black solid;
+    display: flex;
+    max-width: 450px;
+    /* overflow: hidden; */
+}
