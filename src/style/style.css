@@ -24,6 +24,7 @@ body {
 .wide-slide {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .container {
