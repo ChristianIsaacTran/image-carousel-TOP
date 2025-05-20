@@ -1,20 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
-</head>
-<body>
-    <button type="button" class="nav-button prev">←</button>
-    <div class="container">
-        <div class="wide-slide">
-            <div class="slide"><img class="slide-content" src="images/CellAndShark.png" alt="First victory royale of the mini season"></div>
-            <div class="slide"><img class="slide-content" src="images/LightSabersSuck.png" alt="Victory royale with martin throwing light saber"></div>
-            <div class="slide"><img class="slide-content" src="images/LukeWin.png" alt="Victory royale with luke"></div>
-            <div class="slide"><img class="slide-content" src="images/WilWin.png" alt="Victory royale with will and martin"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Carousel</title>
+    </head>
+    <body>
+        <div class="image-carousel">
+            <button type="button" class="nav-button prev">←</button>
+            <div class="container">
+                <div class="wide-slide">
+                    <div class="slide">
+                        <img
+                            class="slide-content"
+                            src="images/CellAndShark.png"
+                            alt="First victory royale of the mini season"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            class="slide-content"
+                            src="images/LightSabersSuck.png"
+                            alt="Victory royale with martin throwing light saber"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            class="slide-content"
+                            src="images/LukeWin.png"
+                            alt="Victory royale with luke"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            class="slide-content"
+                            src="images/WilWin.png"
+                            alt="Victory royale with will and martin"
+                        />
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="nav-button next">→</button>
         </div>
-    </div>
-    <button type="button" class="nav-button next">→</button>
-</body>
+        <div class="nav-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>    
+        </div>
+    </body>
 </html>

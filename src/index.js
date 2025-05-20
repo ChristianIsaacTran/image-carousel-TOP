@@ -11,7 +11,6 @@ const imageSlider = slideShift(slideContainer);
 imageSlider.resetToFirst();
 
 // add event handlers to nav buttons for prev and next
-
 prevNavButton.addEventListener("click", imageSlider.prevSlide);
 
 nextNavButton.addEventListener("click", imageSlider.nextSlide);
